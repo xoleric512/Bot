@@ -1,0 +1,21 @@
+{
+  "name": "telegram-ai-bot",
+  "version": "1.0.0",
+  "description": "Telegram AI Bot with OpenAI",
+  "main": "telegram_ai_bot.js",
+  "scripts": {
+    "start": "node telegram_ai_bot.js",
+    "dev": "node telegram_ai_bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "openai": "^4.52.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["telegram", "bot", "ai", "openai"],
+  "author": "Your Name",
+  "license": "MIT"
+}
