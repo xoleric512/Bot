@@ -1,7 +1,7 @@
 {
   "name": "telegram-ai-bot",
-  "version": "1.0.0",
-  "description": "Telegram AI Bot with OpenAI",
+  "version": "2.0.0",
+  "description": "Telegram AI Bot with Hugging Face",
   "main": "telegram_ai_bot.js",
   "scripts": {
     "start": "node telegram_ai_bot.js",
@@ -10,12 +10,12 @@
   "dependencies": {
     "telegraf": "^4.16.3",
     "openai": "^4.52.0",
-    "dotenv": "^16.4.5"
+    "express": "^4.18.2"
   },
   "engines": {
     "node": ">=18"
   },
-  "keywords": ["telegram", "bot", "ai", "openai"],
-  "author": "Your Name",
+  "keywords": ["telegram", "bot", "ai", "huggingface"],
+  "author": "Developer",
   "license": "MIT"
 }
